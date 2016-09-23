@@ -1,0 +1,2 @@
+// finds the largest palindrome made from the product of two 3-digit numbers
+(for(  x <- (1 to 999 );  y <- (1 to x)  ) yield (x,y)).map(t => t._1 * t._2).distinct.filter(n => n.toString == n.toString.reverse).max

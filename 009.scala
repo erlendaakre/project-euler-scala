@@ -1,0 +1,2 @@
+// finds the product of the Pythagorean triplet (a2 + b2 = c2 & a < b < c) abc, where a + b + c = 1000
+(for(  x <- (1 to 1000);  y <- (1 to 1000)  ) yield (x,y)).filter(t => t._1 < t._2 && Math.sqrt( (BigInt(t._1).pow(2) + BigInt(t._2).pow(2)).toDouble) % 1 == 0).map(t => List(BigInt(t._1), BigInt(t._2), BigInt(t._1).pow(2), BigInt(t._2).pow(2))).map(l => List(l(0), l(1), BigInt(Math.sqrt((l(2)+l(3)).toDouble).toInt))).filter(_.sum == 1000).head.product
