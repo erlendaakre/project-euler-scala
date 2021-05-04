@@ -1,6 +1,6 @@
 ## My project euler scala solutions
 
-![project euler badge] (http://projecteuler.net/profile/erlendaakre.png)
+![project euler badge](http://projecteuler.net/profile/erlendaakre.png)
 
 ### Running code
 
