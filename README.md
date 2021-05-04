@@ -1,8 +1,8 @@
-##My project euler scala solutions
+## My project euler scala solutions
 
 ![project euler badge] (http://projecteuler.net/profile/erlendaakre.png)
 
-###Running code
+### Running code
 
 start scala repl
 
