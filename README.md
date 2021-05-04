@@ -8,6 +8,6 @@ start scala repl
 
 `scala`
 
-load the script xxx.scala
+load the script _.scala
 
 `:load 012.scala`
